@@ -1,27 +1,17 @@
 package com.example.codecoverage.strategy;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import java.util.List;
 
 @Service
-public class Main {
-
-    private Duck mallardDuck;
-    private Duck rubberDuck;
-
-    public Main(@Qualifier("mallardDuck") Duck mallardDuck, @Qualifier("rubberDuck") Duck rubberDuck) {
-        this.mallardDuck = mallardDuck;
-        this.rubberDuck = rubberDuck;
-    }
+public record Main(List<Duck> ducks) {
 
     public void test() {
-        mallardDuck.performFly();
-        mallardDuck.performQuack();
-        mallardDuck.display();
-
-        rubberDuck.performFly();
-        rubberDuck.performQuack();
-        rubberDuck.display();
+        for (var duck : ducks) {
+            duck.performFly();
+            duck.performQuack();
+            duck.display();
+        }
     }
 
 }
