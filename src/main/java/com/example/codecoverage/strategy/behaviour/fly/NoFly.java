@@ -1,6 +1,6 @@
-package com.example.codecoverage.service.behaviour.fly;
+package com.example.codecoverage.strategy.behaviour.fly;
 
-import com.example.codecoverage.service.api.FlyBehaviour;
+import com.example.codecoverage.strategy.api.FlyBehaviour;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 

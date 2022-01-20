@@ -1,7 +1,7 @@
-package com.example.codecoverage.service;
+package com.example.codecoverage.strategy;
 
-import com.example.codecoverage.service.api.FlyBehaviour;
-import com.example.codecoverage.service.api.QuackBehaviour;
+import com.example.codecoverage.strategy.api.FlyBehaviour;
+import com.example.codecoverage.strategy.api.QuackBehaviour;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
 

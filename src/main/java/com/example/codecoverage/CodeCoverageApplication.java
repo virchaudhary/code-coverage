@@ -1,9 +1,7 @@
 package com.example.codecoverage;
 
-import com.example.codecoverage.service.Duck;
-import com.example.codecoverage.service.Main;
+import com.example.codecoverage.strategy.Main;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.codecoverage.service.api;
+package com.example.codecoverage.strategy.api;
 
 public interface FlyBehaviour {
     void fly();

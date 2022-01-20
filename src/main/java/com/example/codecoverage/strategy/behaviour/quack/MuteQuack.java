@@ -1,6 +1,6 @@
-package com.example.codecoverage.service.behaviour.quack;
+package com.example.codecoverage.strategy.behaviour.quack;
 
-import com.example.codecoverage.service.api.QuackBehaviour;
+import com.example.codecoverage.strategy.api.QuackBehaviour;
 import org.springframework.stereotype.Service;
 
 @Service
